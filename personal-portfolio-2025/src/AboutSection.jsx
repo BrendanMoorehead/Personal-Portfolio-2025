@@ -1,7 +1,9 @@
-import React from 'react';
-
 const AboutSection = () => {
-  return <div>AboutSection</div>;
+  return (
+    <div className="about-me">
+      <h1 className="bold-name">BRENDAN MOOREHEAD</h1>
+    </div>
+  );
 };
 
 export default AboutSection;
