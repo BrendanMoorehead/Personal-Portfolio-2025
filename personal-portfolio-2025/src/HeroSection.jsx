@@ -42,7 +42,7 @@ const HeroSection = () => {
       <div className="content-overlay">
         <h1 className="name name-upper">BRENDAN</h1>
         <h1 className="name name-lower">MOOREHEAD</h1>
-        <div className="hero-about">{aboutText}</div>
+        <div className="hero-about hide-on-mobile">{aboutText}</div>
       </div>
     </section>
   );

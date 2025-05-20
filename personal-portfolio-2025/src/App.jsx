@@ -5,6 +5,7 @@ import ExperienceSection from './ExperienceSection';
 import React, { useEffect, useRef } from 'react';
 import Lenis from '@studio-freight/lenis';
 import ProjectsSection from './ProjectsSection';
+import EducationSection from './EducationSection';
 function App() {
   const lenis = useRef(null);
 
@@ -35,6 +36,7 @@ function App() {
       <HeroSection />
       <ExperienceSection />
       <ProjectsSection />
+      <EducationSection />
     </div>
   );
 }

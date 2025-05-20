@@ -7,7 +7,7 @@ const WorkTitle = ({
   panAmount = 200, // How many pixels the image will move
   direction = 'vertical', // 'vertical' or 'horizontal'
   className = '',
-  fontSize = '180px',
+  // fontSize = '40px',
   color = 'white',
   imageSize = 'cover', // New prop: 'contain', 'cover', or custom percentage like '80%'
   imagePosition = 'center', // New prop: 'center', 'top', 'bottom', etc.
@@ -21,7 +21,6 @@ const WorkTitle = ({
   const containerRef = useRef(null);
   const rafRef = useRef(null);
   const style = {
-    fontSize,
     color,
   };
 
